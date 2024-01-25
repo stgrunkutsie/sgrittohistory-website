@@ -23,6 +23,7 @@ body {
 	text-align: justify;
   font-family: 'Segoe UI';
   font-weight: 500;
+  background-color: rgb(228, 228, 228)
 }
 #robo {
   background-color: #5C5D67;
@@ -30,6 +31,17 @@ body {
   width: 100%;
   padding-left: 18px;
   margin-left: -10px;
+}
+#intro {
+  text-align: center;
+  font-size: larger;
+}
+#linkLib {
+  border-radius: 20px;
+  margin-top: 50px;
+}
+#divLib {
+  padding-bottom: 75px;
 }
 
 .navbar {
@@ -59,8 +71,16 @@ body {
   display: flex;
 	justify-content: center;
 	align-items: center;
+  text-align: center;
+  font-size: larger;
 }
 .lib {
-  width: 500px;
+  width: 600px;
   height: 500px;
+  border-radius: 20px;
+}
+.tabellaHome {
+  vertical-align: top;
+  text-align: center;
+  margin-top: -25px;
 }
